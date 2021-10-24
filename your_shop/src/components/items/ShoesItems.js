@@ -40,6 +40,7 @@ function ShoesItems(props) {
 				
 				<Modal isOpen={modal} toggle={toggle} className={className}>
 					<ModalHeader toggle={toggle}>Item name</ModalHeader>
+
 					<ModalBody>
 						<form>
 							<div className="mb-3">

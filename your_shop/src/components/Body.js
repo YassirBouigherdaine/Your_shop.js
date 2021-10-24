@@ -64,7 +64,7 @@ function Body() {
                                 </ul>
                             </div>
                             <div className="col py-5 m-4">
-                            <form>
+                            <form id="myForm">
                                     <div className="mb-3">
                                         <label for="exampleInputEmail1" className="form-label">Name</label>
                                         <input type="name" className="form-control" id="name" />
@@ -93,8 +93,8 @@ function Body() {
                
            
 
-            <div id="about" className="m-5 border border-dark myText text-dark border-dark">
-                <div className="container p-5">
+            <div id="about" className="m-5  myText text-dark">
+                <div className="border border-dark container p-5">
                     <h2 className="display-5 text-center p-2 text-dark">About us</h2>
                     <div className="row align-items-center px-5 m-1">
 

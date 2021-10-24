@@ -5,7 +5,7 @@ function Footer() {
     return (
 
         <div>
-            <div className=" text-center p-5 w-100 bg-dark text-white ">
+            <div id="myFooter"  className=" text-center p-5 w-100 bg-dark text-white ">
                 <div className="row">
                     <div className="col ">
                         <h5 className="text-danger">Our Location</h5>
@@ -26,7 +26,7 @@ function Footer() {
                         </ul>
                     </div>
                     <div className="col">
-                        <h5 className="text-danger">Contact us</h5>
+                        <h5 id="ContFooter"className="text-danger">Contact us</h5>
                         <br />
                         <ul className="myList">
                             <li>95 (61) 346613895</li>
