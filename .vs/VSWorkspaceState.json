@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\your_shop",
+    "\\your_shop\\public",
+    "\\your_shop\\src",
+    "\\your_shop\\src\\components",
+    "\\your_shop\\src\\components\\items",
+    "\\your_shop\\src\\components\\layout",
+    "\\your_shop\\src\\shoPages"
+  ],
+  "SelectedNode": "\\your_shop\\src\\components\\Body.js",
+  "PreviewInSolutionExplorer": false
+}
