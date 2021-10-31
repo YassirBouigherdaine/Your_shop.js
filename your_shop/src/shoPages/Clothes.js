@@ -27,7 +27,7 @@ function Clothes() {
 
 	return (
 		
-		<div className="row px-5 m-5">
+		<div className="row px-5 ms-5">
 			{items}
 		</div>
 		

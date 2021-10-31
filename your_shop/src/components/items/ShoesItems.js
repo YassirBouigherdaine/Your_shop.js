@@ -5,16 +5,12 @@ import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
 
 function ShoesItems(props) {
 
-	const [isActive, setIsActive] = useState(false)
+	const [isActive, setIsActive] = useState(true)
 
 	const imageHandler = () => {
 		setIsActive(!isActive)
 	}
 
-	const {
-		buttonLabel,
-		className
-	} = props;
 
 	const [modal, setModal] = useState(false);
 
@@ -23,7 +19,7 @@ function ShoesItems(props) {
 
 	return (
 
-		<div  className={`${isActive ? 'card bg-dark text-white row w-100 px-4 m-5  py-4' : 'card bg-dark text-white row   m-5  py-2'}`} style={{ maxWidth: "18rem" }} >
+		<div className={`${isActive ? 'card bg-dark text-white shadow-lg rounded row w-100 px-4 m-5  py-4' : 'shadow-lg rounded card bg-dark text-white row m-5  py-2'}`} style={{ maxWidth: "18rem" }} >
 			<img src={props.image} alt="..." className='card-img-top  mt-3' onMouseOver={imageHandler}/>
 			<div className="card-body">
 				<h3 className="card-title">{props.name}</h3>
@@ -38,7 +34,7 @@ function ShoesItems(props) {
 
 			<div>
 				
-				<Modal isOpen={modal} toggle={toggle} className={className}>
+				<Modal isOpen={modal} toggle={toggle} >
 					<ModalHeader toggle={toggle}>Item name</ModalHeader>
 
 					<ModalBody>

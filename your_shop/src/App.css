@@ -53,11 +53,26 @@
     list-style: none;
 }
 
+.myReviewCard {
+    width: 30rem;
+    text-align: center;
+    margin-left: 430px;
+}
+
+.myReviewImg {
+    border-radius: 60%;
+    height: 300px;
+    width: 300px;
+    margin-left:70px;
+    padding:20px;
+}
+
+
+
 
 
 
 @media(max-width: 768px) {
-
     #myCarousel {
         width: 50%;
         font-size: 14px;
@@ -109,7 +124,19 @@
     }
 
 
+    .myReviewCard {
+        width: 100%;
+        margin-left: 0px;
+        font-size: 14px;
+    }
+    .myReviewImg {
+       
+       
+       margin-left:70px;
+    }
 
+  
+   
 
 
     #about {
@@ -117,7 +144,6 @@
         padding-right: 70px;
         width: 95%;
         font-size: 14px;
-        
     }
 
     #about .card-body {

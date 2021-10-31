@@ -6,6 +6,7 @@ import Accessories from '../shoPages/Accessories';
 import Shoes from '../shoPages/Shoes';
 
 import ShopNav from './layout/ShopNav.js'
+import Review from './items/Review';
 
 function Body() {
 
@@ -24,7 +25,7 @@ function Body() {
 
             <div id="shop">
                 <div className="container py-4 ">
-                    <h3 className="display-6 text-center">New Fashion</h3>
+                    <h3 className="display-6 text-center m-4">New Fashion</h3>
 
                     <p className="card-text">Le Lorem Ipsum est simplement du faux texte employé dans la composition et impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices.</p>
                 </div>
@@ -47,6 +48,13 @@ function Body() {
 
                 </Switch>
             </div>
+
+
+            <div id="reviews" className=" p-2">
+                <h2 className="display-6 text-center m-5">Our reviews</h2>
+                <Review/>
+            </div>
+
 
                 <div id="contact" className="container bg-dark text-white w-75 px-5 ">
                     <div className="container p-5 m-5 ">
@@ -99,7 +107,7 @@ function Body() {
                     <div className="row align-items-center px-5 m-1">
 
                         <div className="col">
-                            <img src='/pics/pic6.jpg' className="card-img-top  myCardimg" alt="..." />
+                            <img src='/pics/pic13.jpg' className="card-img-top  myCardimg" alt="..." />
                         </div>
                         <div className="col">
                             <div className="card-body">
@@ -121,7 +129,7 @@ function Body() {
                             </div>
                         </div>
                         <div className="col">
-                            <img src='/pics/pic3.jpg' className="card-img-top  myCardimg" alt="..." />
+                            <img src='/pics/pic17.jpg' className="card-img-top  myCardimg" alt="..." />
                         </div>
                         <div className="col">
                             <div className="card-body">
